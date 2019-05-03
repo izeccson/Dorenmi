@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:checkable="false"
+            android:title="Barang Sewa" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vendor"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:checkable="false"
+            android:title="Vendor List" />
+        <item
+            android:id="@+id/nav_vendoradd"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Vendor Add" />
+    </group>
+
+    <group android:id="@+id/group_akun"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transanction"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Transaksi" />
+
+    </group>
+
+    <!--
+    <group android:id="@+id/group_akun"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transanction"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Dashboard" />
+
+    </group>
+    -->
+    <group android:id="@+id/group_logout">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+
+</menu>
